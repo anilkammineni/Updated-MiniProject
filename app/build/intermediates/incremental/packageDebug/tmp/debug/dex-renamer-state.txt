@@ -1,0 +1,4 @@
+#Thu Jun 18 17:55:47 IST 2020
+base.0=E\:\\mini\\Inventory-Management-System\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

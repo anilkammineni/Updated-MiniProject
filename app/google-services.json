@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "572902274905",
+    "firebase_url": "https://inventorymanangement7.firebaseio.com",
+    "project_id": "inventorymanangement7",
+    "storage_bucket": "inventorymanangement7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572902274905:android:0a3a200ca8d82c3baa7e48",
+        "android_client_info": {
+          "package_name": "com.kartik.barcode"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572902274905-h22ah1g0gam4b00553qua032olg88e9u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvPoMtFUjZ9_6t0YEUi0LO2u9tFv_lyuc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572902274905-h22ah1g0gam4b00553qua032olg88e9u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

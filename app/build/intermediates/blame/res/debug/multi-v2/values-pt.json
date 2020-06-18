@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\mini\\Inventory-Management-System\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt\\values-pt.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\anilk\\.gradle\\caches\\transforms-2\\files-2.1\\dc23001455a8277d1fb184bd0a96f114\\appcompat-v7-23.4.0\\res\\values-pt\\values-pt.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,175,283,406,512,619,708,809,927,1010,1090,1177,1284,1396,1498,1606,1713,1823,1948,2048",
+                        "endColumns": "119,107,122,105,106,88,100,117,82,79,86,106,111,101,107,106,109,124,99,100",
+                        "endOffsets": "170,278,401,507,614,703,804,922,1005,1085,1172,1279,1391,1493,1601,1708,1818,1943,2043,2144"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\anilk\\.gradle\\caches\\transforms-2\\files-2.1\\cd569baee836ea05e48113647095e559\\zxing-android-embedded-3.0.2\\res\\values-pt\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "195,254,301,457",
+                        "endColumns": "58,46,155,106",
+                        "endOffsets": "249,296,452,559"
+                    },
+                    "to": {
+                        "startLines": "22,23,24,25",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "2149,2208,2255,2411",
+                        "endColumns": "58,46,155,106",
+                        "endOffsets": "2203,2250,2406,2513"
+                    }
+                }
+            ]
+        }
+    ]
+}

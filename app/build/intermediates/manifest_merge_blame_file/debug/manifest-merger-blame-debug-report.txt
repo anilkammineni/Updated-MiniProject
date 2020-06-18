@@ -1,0 +1,284 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.kartik.barcode"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->E:\mini\Inventory-Management-System\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="23" />
+9-->E:\mini\Inventory-Management-System\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+11-->E:\mini\Inventory-Management-System\app\src\main\AndroidManifest.xml:5:5-81
+11-->E:\mini\Inventory-Management-System\app\src\main\AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->E:\mini\Inventory-Management-System\app\src\main\AndroidManifest.xml:6:5-79
+12-->E:\mini\Inventory-Management-System\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->E:\mini\Inventory-Management-System\app\src\main\AndroidManifest.xml:7:5-79
+13-->E:\mini\Inventory-Management-System\app\src\main\AndroidManifest.xml:7:22-77
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->E:\mini\Inventory-Management-System\app\src\main\AndroidManifest.xml:45:5-66
+14-->E:\mini\Inventory-Management-System\app\src\main\AndroidManifest.xml:45:22-64
+15    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+15-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\cd569baee836ea05e48113647095e559\zxing-android-embedded-3.0.2\AndroidManifest.xml:23:5-65
+15-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\cd569baee836ea05e48113647095e559\zxing-android-embedded-3.0.2\AndroidManifest.xml:23:22-62
+16    <uses-feature
+16-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\cd569baee836ea05e48113647095e559\zxing-android-embedded-3.0.2\AndroidManifest.xml:26:5-28:36
+17        android:name="android.hardware.camera"
+17-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\cd569baee836ea05e48113647095e559\zxing-android-embedded-3.0.2\AndroidManifest.xml:27:9-47
+18        android:required="false" />
+18-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\cd569baee836ea05e48113647095e559\zxing-android-embedded-3.0.2\AndroidManifest.xml:28:9-33
+19    <uses-feature
+19-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\cd569baee836ea05e48113647095e559\zxing-android-embedded-3.0.2\AndroidManifest.xml:29:5-31:36
+20        android:name="android.hardware.camera.front"
+20-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\cd569baee836ea05e48113647095e559\zxing-android-embedded-3.0.2\AndroidManifest.xml:30:9-53
+21        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+21-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\cd569baee836ea05e48113647095e559\zxing-android-embedded-3.0.2\AndroidManifest.xml:31:9-33
+22    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+23    <uses-feature
+23-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\cd569baee836ea05e48113647095e559\zxing-android-embedded-3.0.2\AndroidManifest.xml:34:5-36:36
+24        android:name="android.hardware.camera.autofocus"
+24-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\cd569baee836ea05e48113647095e559\zxing-android-embedded-3.0.2\AndroidManifest.xml:35:9-57
+25        android:required="false" />
+25-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\cd569baee836ea05e48113647095e559\zxing-android-embedded-3.0.2\AndroidManifest.xml:36:9-33
+26    <uses-feature
+26-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\cd569baee836ea05e48113647095e559\zxing-android-embedded-3.0.2\AndroidManifest.xml:37:5-39:36
+27        android:name="android.hardware.camera.flash"
+27-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\cd569baee836ea05e48113647095e559\zxing-android-embedded-3.0.2\AndroidManifest.xml:38:9-53
+28        android:required="false" />
+28-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\cd569baee836ea05e48113647095e559\zxing-android-embedded-3.0.2\AndroidManifest.xml:39:9-33
+29    <uses-feature
+29-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\cd569baee836ea05e48113647095e559\zxing-android-embedded-3.0.2\AndroidManifest.xml:40:5-42:36
+30        android:name="android.hardware.screen.landscape"
+30-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\cd569baee836ea05e48113647095e559\zxing-android-embedded-3.0.2\AndroidManifest.xml:41:9-57
+31        android:required="false" />
+31-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\cd569baee836ea05e48113647095e559\zxing-android-embedded-3.0.2\AndroidManifest.xml:42:9-33
+32    <uses-feature
+32-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\cd569baee836ea05e48113647095e559\zxing-android-embedded-3.0.2\AndroidManifest.xml:43:5-45:36
+33        android:name="android.hardware.wifi"
+33-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\cd569baee836ea05e48113647095e559\zxing-android-embedded-3.0.2\AndroidManifest.xml:44:9-45
+34        android:required="false" />
+34-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\cd569baee836ea05e48113647095e559\zxing-android-embedded-3.0.2\AndroidManifest.xml:45:9-33
+35
+36    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Optional permission for App measurement to run. -->
+36-->[com.google.firebase:firebase-analytics:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\10cdc4ba8f7cf0696dcb4db7b402a459\firebase-analytics-9.0.0\AndroidManifest.xml:22:5-79
+36-->[com.google.firebase:firebase-analytics:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\10cdc4ba8f7cf0696dcb4db7b402a459\firebase-analytics-9.0.0\AndroidManifest.xml:22:22-76
+37    <uses-permission android:name="android.permission.WAKE_LOCK" />
+37-->[com.google.firebase:firebase-analytics:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\10cdc4ba8f7cf0696dcb4db7b402a459\firebase-analytics-9.0.0\AndroidManifest.xml:24:5-67
+37-->[com.google.firebase:firebase-analytics:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\10cdc4ba8f7cf0696dcb4db7b402a459\firebase-analytics-9.0.0\AndroidManifest.xml:24:22-65
+38    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+38-->[com.google.firebase:firebase-iid:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\3b3960ef5853f1c83bd2263f6443446f\firebase-iid-9.0.0\AndroidManifest.xml:23:5-82
+38-->[com.google.firebase:firebase-iid:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\3b3960ef5853f1c83bd2263f6443446f\firebase-iid-9.0.0\AndroidManifest.xml:23:22-79
+39
+40    <permission
+40-->[com.google.firebase:firebase-iid:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\3b3960ef5853f1c83bd2263f6443446f\firebase-iid-9.0.0\AndroidManifest.xml:25:5-26:47
+41        android:name="com.kartik.barcode.permission.C2D_MESSAGE"
+41-->[com.google.firebase:firebase-iid:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\3b3960ef5853f1c83bd2263f6443446f\firebase-iid-9.0.0\AndroidManifest.xml:25:17-71
+42        android:protectionLevel="signature" />
+42-->[com.google.firebase:firebase-iid:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\3b3960ef5853f1c83bd2263f6443446f\firebase-iid-9.0.0\AndroidManifest.xml:26:9-44
+43
+44    <uses-permission android:name="com.kartik.barcode.permission.C2D_MESSAGE" />
+44-->[com.google.firebase:firebase-iid:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\3b3960ef5853f1c83bd2263f6443446f\firebase-iid-9.0.0\AndroidManifest.xml:28:5-79
+44-->[com.google.firebase:firebase-iid:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\3b3960ef5853f1c83bd2263f6443446f\firebase-iid-9.0.0\AndroidManifest.xml:28:22-76
+45
+46    <application
+46-->E:\mini\Inventory-Management-System\app\src\main\AndroidManifest.xml:9:5-43:19
+47        android:allowBackup="true"
+47-->E:\mini\Inventory-Management-System\app\src\main\AndroidManifest.xml:10:9-35
+48        android:debuggable="true"
+49        android:icon="@drawable/un"
+49-->E:\mini\Inventory-Management-System\app\src\main\AndroidManifest.xml:11:9-36
+50        android:label="@string/InventoryManagement"
+50-->E:\mini\Inventory-Management-System\app\src\main\AndroidManifest.xml:12:9-52
+51        android:supportsRtl="true"
+51-->E:\mini\Inventory-Management-System\app\src\main\AndroidManifest.xml:13:9-35
+52        android:testOnly="true"
+53        android:theme="@style/myname" >
+53-->E:\mini\Inventory-Management-System\app\src\main\AndroidManifest.xml:14:9-38
+54        <activity android:name="com.kartik.barcode.MainActivity" >
+54-->E:\mini\Inventory-Management-System\app\src\main\AndroidManifest.xml:15:9-17:20
+54-->E:\mini\Inventory-Management-System\app\src\main\AndroidManifest.xml:15:19-47
+55        </activity>
+56        <activity android:name="com.kartik.barcode.login" >
+56-->E:\mini\Inventory-Management-System\app\src\main\AndroidManifest.xml:18:9-21:20
+56-->E:\mini\Inventory-Management-System\app\src\main\AndroidManifest.xml:18:19-40
+57        </activity>
+58        <activity android:name="com.kartik.barcode.register" >
+58-->E:\mini\Inventory-Management-System\app\src\main\AndroidManifest.xml:22:9-24:18
+58-->E:\mini\Inventory-Management-System\app\src\main\AndroidManifest.xml:22:19-43
+59        </activity>
+60        <activity android:name="com.kartik.barcode.splash" >
+60-->E:\mini\Inventory-Management-System\app\src\main\AndroidManifest.xml:25:9-31:24
+60-->E:\mini\Inventory-Management-System\app\src\main\AndroidManifest.xml:25:19-41
+61            <intent-filter>
+61-->E:\mini\Inventory-Management-System\app\src\main\AndroidManifest.xml:26:13-30:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->E:\mini\Inventory-Management-System\app\src\main\AndroidManifest.xml:27:17-69
+62-->E:\mini\Inventory-Management-System\app\src\main\AndroidManifest.xml:27:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->E:\mini\Inventory-Management-System\app\src\main\AndroidManifest.xml:29:17-77
+64-->E:\mini\Inventory-Management-System\app\src\main\AndroidManifest.xml:29:27-74
+65            </intent-filter>
+66        </activity>
+67        <activity android:name="com.kartik.barcode.records" />
+67-->E:\mini\Inventory-Management-System\app\src\main\AndroidManifest.xml:32:9-45
+67-->E:\mini\Inventory-Management-System\app\src\main\AndroidManifest.xml:32:19-42
+68        <activity android:name="com.kartik.barcode.display" />
+68-->E:\mini\Inventory-Management-System\app\src\main\AndroidManifest.xml:33:9-45
+68-->E:\mini\Inventory-Management-System\app\src\main\AndroidManifest.xml:33:19-42
+69        <activity android:name="com.kartik.barcode.details" >
+69-->E:\mini\Inventory-Management-System\app\src\main\AndroidManifest.xml:34:9-35:20
+69-->E:\mini\Inventory-Management-System\app\src\main\AndroidManifest.xml:34:19-42
+70        </activity>
+71        <activity android:name="com.kartik.barcode.chats" >
+71-->E:\mini\Inventory-Management-System\app\src\main\AndroidManifest.xml:36:9-38:20
+71-->E:\mini\Inventory-Management-System\app\src\main\AndroidManifest.xml:36:19-40
+72        </activity>
+73        <!--
+74 ATTENTION: This was auto-generated to add Google Play services to your project for
+75     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+76        -->
+77        <meta-data
+77-->E:\mini\Inventory-Management-System\app\src\main\AndroidManifest.xml:40:9-42:69
+78            android:name="com.google.android.gms.version"
+78-->E:\mini\Inventory-Management-System\app\src\main\AndroidManifest.xml:41:13-58
+79            android:value="@integer/google_play_services_version" />
+79-->E:\mini\Inventory-Management-System\app\src\main\AndroidManifest.xml:42:13-66
+80
+81        <activity
+81-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\cd569baee836ea05e48113647095e559\zxing-android-embedded-3.0.2\AndroidManifest.xml:48:9-54:63
+82            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+82-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\cd569baee836ea05e48113647095e559\zxing-android-embedded-3.0.2\AndroidManifest.xml:49:13-74
+83            android:clearTaskOnLaunch="true"
+83-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\cd569baee836ea05e48113647095e559\zxing-android-embedded-3.0.2\AndroidManifest.xml:50:13-45
+84            android:screenOrientation="sensorLandscape"
+84-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\cd569baee836ea05e48113647095e559\zxing-android-embedded-3.0.2\AndroidManifest.xml:51:13-56
+85            android:stateNotNeeded="true"
+85-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\cd569baee836ea05e48113647095e559\zxing-android-embedded-3.0.2\AndroidManifest.xml:52:13-42
+86            android:theme="@style/zxing_CaptureTheme"
+86-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\cd569baee836ea05e48113647095e559\zxing-android-embedded-3.0.2\AndroidManifest.xml:53:13-54
+87            android:windowSoftInputMode="stateAlwaysHidden" />
+87-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\cd569baee836ea05e48113647095e559\zxing-android-embedded-3.0.2\AndroidManifest.xml:54:13-60
+88        <activity
+88-->[com.google.android.gms:play-services-auth:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\318e8fc8c97c0644f2150292ee23726c\play-services-auth-9.0.0\AndroidManifest.xml:21:9-24:46
+89            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+89-->[com.google.android.gms:play-services-auth:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\318e8fc8c97c0644f2150292ee23726c\play-services-auth-9.0.0\AndroidManifest.xml:21:19-68
+90            android:excludeFromRecents="true"
+90-->[com.google.android.gms:play-services-auth:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\318e8fc8c97c0644f2150292ee23726c\play-services-auth-9.0.0\AndroidManifest.xml:23:19-52
+91            android:exported="false"
+91-->[com.google.android.gms:play-services-auth:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\318e8fc8c97c0644f2150292ee23726c\play-services-auth-9.0.0\AndroidManifest.xml:24:19-43
+92            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+92-->[com.google.android.gms:play-services-auth:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\318e8fc8c97c0644f2150292ee23726c\play-services-auth-9.0.0\AndroidManifest.xml:22:19-78
+93        <!--
+94Service handling Google Sign-In user revocation. For apps that do not integrate with
+95            Google Sign-In, this service will never be started.
+96        -->
+97        <service
+97-->[com.google.android.gms:play-services-auth:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\318e8fc8c97c0644f2150292ee23726c\play-services-auth-9.0.0\AndroidManifest.xml:28:9-31:110
+98            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+98-->[com.google.android.gms:play-services-auth:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\318e8fc8c97c0644f2150292ee23726c\play-services-auth-9.0.0\AndroidManifest.xml:29:13-58
+99            android:exported="true"
+99-->[com.google.android.gms:play-services-auth:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\318e8fc8c97c0644f2150292ee23726c\play-services-auth-9.0.0\AndroidManifest.xml:30:13-36
+100            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+100-->[com.google.android.gms:play-services-auth:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\318e8fc8c97c0644f2150292ee23726c\play-services-auth-9.0.0\AndroidManifest.xml:31:13-107
+101
+102        <receiver
+102-->[com.google.firebase:firebase-analytics:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\10cdc4ba8f7cf0696dcb4db7b402a459\firebase-analytics-9.0.0\AndroidManifest.xml:28:7-34:18
+103            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+103-->[com.google.firebase:firebase-analytics:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\10cdc4ba8f7cf0696dcb4db7b402a459\firebase-analytics-9.0.0\AndroidManifest.xml:29:11-83
+104            android:enabled="true" >
+104-->[com.google.firebase:firebase-analytics:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\10cdc4ba8f7cf0696dcb4db7b402a459\firebase-analytics-9.0.0\AndroidManifest.xml:30:11-33
+105            <intent-filter>
+105-->[com.google.firebase:firebase-analytics:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\10cdc4ba8f7cf0696dcb4db7b402a459\firebase-analytics-9.0.0\AndroidManifest.xml:31:9-33:25
+106                <action android:name="com.google.android.gms.measurement.UPLOAD" />
+106-->[com.google.firebase:firebase-analytics:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\10cdc4ba8f7cf0696dcb4db7b402a459\firebase-analytics-9.0.0\AndroidManifest.xml:32:11-77
+106-->[com.google.firebase:firebase-analytics:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\10cdc4ba8f7cf0696dcb4db7b402a459\firebase-analytics-9.0.0\AndroidManifest.xml:32:19-75
+107            </intent-filter>
+108        </receiver>
+109
+110        <service
+110-->[com.google.firebase:firebase-analytics:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\10cdc4ba8f7cf0696dcb4db7b402a459\firebase-analytics-9.0.0\AndroidManifest.xml:36:7-39:37
+111            android:name="com.google.android.gms.measurement.AppMeasurementService"
+111-->[com.google.firebase:firebase-analytics:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\10cdc4ba8f7cf0696dcb4db7b402a459\firebase-analytics-9.0.0\AndroidManifest.xml:37:11-82
+112            android:enabled="true"
+112-->[com.google.firebase:firebase-analytics:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\10cdc4ba8f7cf0696dcb4db7b402a459\firebase-analytics-9.0.0\AndroidManifest.xml:38:11-33
+113            android:exported="false" />
+113-->[com.google.firebase:firebase-analytics:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\10cdc4ba8f7cf0696dcb4db7b402a459\firebase-analytics-9.0.0\AndroidManifest.xml:39:11-35
+114
+115        <activity
+115-->[com.google.android.gms:play-services-base:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\ae6891978ebfd53b8761b1146d90614e\play-services-base-9.0.0\AndroidManifest.xml:20:9-22:45
+116            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+116-->[com.google.android.gms:play-services-base:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\ae6891978ebfd53b8761b1146d90614e\play-services-base-9.0.0\AndroidManifest.xml:20:19-85
+117            android:exported="false"
+117-->[com.google.android.gms:play-services-base:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\ae6891978ebfd53b8761b1146d90614e\play-services-base-9.0.0\AndroidManifest.xml:22:19-43
+118            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+118-->[com.google.android.gms:play-services-base:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\ae6891978ebfd53b8761b1146d90614e\play-services-base-9.0.0\AndroidManifest.xml:21:19-78
+119
+120        <receiver
+120-->[com.google.firebase:firebase-iid:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\3b3960ef5853f1c83bd2263f6443446f\firebase-iid-9.0.0\AndroidManifest.xml:32:9-41:20
+121            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+121-->[com.google.firebase:firebase-iid:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\3b3960ef5853f1c83bd2263f6443446f\firebase-iid-9.0.0\AndroidManifest.xml:33:13-78
+122            android:exported="true"
+122-->[com.google.firebase:firebase-iid:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\3b3960ef5853f1c83bd2263f6443446f\firebase-iid-9.0.0\AndroidManifest.xml:34:13-36
+123            android:permission="com.google.android.c2dm.permission.SEND" >
+123-->[com.google.firebase:firebase-iid:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\3b3960ef5853f1c83bd2263f6443446f\firebase-iid-9.0.0\AndroidManifest.xml:35:13-73
+124            <intent-filter>
+124-->[com.google.firebase:firebase-iid:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\3b3960ef5853f1c83bd2263f6443446f\firebase-iid-9.0.0\AndroidManifest.xml:36:13-40:29
+125                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+125-->[com.google.firebase:firebase-iid:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\3b3960ef5853f1c83bd2263f6443446f\firebase-iid-9.0.0\AndroidManifest.xml:37:17-81
+125-->[com.google.firebase:firebase-iid:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\3b3960ef5853f1c83bd2263f6443446f\firebase-iid-9.0.0\AndroidManifest.xml:37:25-78
+126                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+126-->[com.google.firebase:firebase-iid:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\3b3960ef5853f1c83bd2263f6443446f\firebase-iid-9.0.0\AndroidManifest.xml:38:17-86
+126-->[com.google.firebase:firebase-iid:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\3b3960ef5853f1c83bd2263f6443446f\firebase-iid-9.0.0\AndroidManifest.xml:38:25-83
+127
+128                <category android:name="com.kartik.barcode" />
+128-->[com.google.firebase:firebase-iid:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\3b3960ef5853f1c83bd2263f6443446f\firebase-iid-9.0.0\AndroidManifest.xml:39:17-61
+128-->[com.google.firebase:firebase-iid:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\3b3960ef5853f1c83bd2263f6443446f\firebase-iid-9.0.0\AndroidManifest.xml:39:27-58
+129            </intent-filter>
+130        </receiver>
+131        <!--
+132 Internal (not exported) receiver used by the app to start its own exported services
+133             without risk of being spoofed.
+134        -->
+135        <receiver
+135-->[com.google.firebase:firebase-iid:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\3b3960ef5853f1c83bd2263f6443446f\firebase-iid-9.0.0\AndroidManifest.xml:45:9-47:40
+136            android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
+136-->[com.google.firebase:firebase-iid:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\3b3960ef5853f1c83bd2263f6443446f\firebase-iid-9.0.0\AndroidManifest.xml:46:13-86
+137            android:exported="false" />
+137-->[com.google.firebase:firebase-iid:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\3b3960ef5853f1c83bd2263f6443446f\firebase-iid-9.0.0\AndroidManifest.xml:47:13-37
+138        <!--
+139 FirebaseInstanceIdService performs security checks at runtime,
+140             no need for explicit permissions despite exported="true"
+141        -->
+142        <service
+142-->[com.google.firebase:firebase-iid:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\3b3960ef5853f1c83bd2263f6443446f\firebase-iid-9.0.0\AndroidManifest.xml:51:9-57:19
+143            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+143-->[com.google.firebase:firebase-iid:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\3b3960ef5853f1c83bd2263f6443446f\firebase-iid-9.0.0\AndroidManifest.xml:52:13-77
+144            android:exported="true" >
+144-->[com.google.firebase:firebase-iid:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\3b3960ef5853f1c83bd2263f6443446f\firebase-iid-9.0.0\AndroidManifest.xml:53:13-36
+145            <intent-filter android:priority="-500" >
+145-->[com.google.firebase:firebase-iid:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\3b3960ef5853f1c83bd2263f6443446f\firebase-iid-9.0.0\AndroidManifest.xml:54:13-56:29
+145-->[com.google.firebase:firebase-iid:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\3b3960ef5853f1c83bd2263f6443446f\firebase-iid-9.0.0\AndroidManifest.xml:54:28-51
+146                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+146-->[com.google.firebase:firebase-iid:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\3b3960ef5853f1c83bd2263f6443446f\firebase-iid-9.0.0\AndroidManifest.xml:55:17-80
+146-->[com.google.firebase:firebase-iid:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\3b3960ef5853f1c83bd2263f6443446f\firebase-iid-9.0.0\AndroidManifest.xml:55:25-77
+147            </intent-filter>
+148        </service>
+149
+150        <provider
+150-->[com.google.firebase:firebase-common:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\3bbabe679543c7c37b380097ca571cc5\firebase-common-9.0.0\AndroidManifest.xml:7:9-11:39
+151            android:name="com.google.firebase.provider.FirebaseInitProvider"
+151-->[com.google.firebase:firebase-common:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\3bbabe679543c7c37b380097ca571cc5\firebase-common-9.0.0\AndroidManifest.xml:9:13-58
+152            android:authorities="com.kartik.barcode.firebaseinitprovider"
+152-->[com.google.firebase:firebase-common:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\3bbabe679543c7c37b380097ca571cc5\firebase-common-9.0.0\AndroidManifest.xml:8:13-72
+153            android:exported="false"
+153-->[com.google.firebase:firebase-common:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\3bbabe679543c7c37b380097ca571cc5\firebase-common-9.0.0\AndroidManifest.xml:10:13-37
+154            android:initOrder="100" />
+154-->[com.google.firebase:firebase-common:9.0.0] C:\Users\anilk\.gradle\caches\transforms-2\files-2.1\3bbabe679543c7c37b380097ca571cc5\firebase-common-9.0.0\AndroidManifest.xml:11:13-36
+155    </application>
+156
+157</manifest>
